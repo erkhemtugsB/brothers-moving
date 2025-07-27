@@ -1,0 +1,151 @@
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Phone, Mail, MapPin, Clock } from "lucide-react";
+
+const ContactSection = () => {
+  return (
+    <section id="contact" className="py-20 bg-background">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
+            Get Your Free Quote
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Ready to make your move? Contact us today for a free, no-obligation quote. 
+            Our team is standing by to help make your relocation smooth and stress-free.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          {/* Contact Form */}
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-2xl text-primary">Request a Quote</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <form className="space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-sm font-medium mb-2">First Name</label>
+                    <Input placeholder="Enter your first name" />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium mb-2">Last Name</label>
+                    <Input placeholder="Enter your last name" />
+                  </div>
+                </div>
+                
+                <div>
+                  <label className="block text-sm font-medium mb-2">Email</label>
+                  <Input type="email" placeholder="Enter your email address" />
+                </div>
+                
+                <div>
+                  <label className="block text-sm font-medium mb-2">Phone Number</label>
+                  <Input type="tel" placeholder="Enter your phone number" />
+                </div>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-sm font-medium mb-2">Moving From</label>
+                    <Input placeholder="Current address" />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium mb-2">Moving To</label>
+                    <Input placeholder="Destination address" />
+                  </div>
+                </div>
+                
+                <div>
+                  <label className="block text-sm font-medium mb-2">Moving Date</label>
+                  <Input type="date" />
+                </div>
+                
+                <div>
+                  <label className="block text-sm font-medium mb-2">Additional Details</label>
+                  <Textarea 
+                    placeholder="Tell us about your moving needs (number of rooms, special items, etc.)"
+                    rows={4}
+                  />
+                </div>
+                
+                <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90 text-lg py-6">
+                  Get Free Quote
+                </Button>
+              </form>
+            </CardContent>
+          </Card>
+
+          {/* Contact Information */}
+          <div className="space-y-8">
+            <Card>
+              <CardContent className="p-8">
+                <h3 className="text-2xl font-bold text-primary mb-6">Contact Information</h3>
+                
+                <div className="space-y-6">
+                  <div className="flex items-start gap-4">
+                    <Phone className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold text-foreground">Phone</h4>
+                      <p className="text-muted-foreground">111-222-3333</p>
+                      <p className="text-sm text-muted-foreground">Call for immediate assistance</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start gap-4">
+                    <Mail className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold text-foreground">Email</h4>
+                      <p className="text-muted-foreground">info@movingcompany.com</p>
+                      <p className="text-sm text-muted-foreground">Send us your questions anytime</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start gap-4">
+                    <MapPin className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold text-foreground">Service Area</h4>
+                      <p className="text-muted-foreground">Greater Metropolitan Area</p>
+                      <p className="text-sm text-muted-foreground">Local and long-distance moves</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start gap-4">
+                    <Clock className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold text-foreground">Business Hours</h4>
+                      <p className="text-muted-foreground">Monday - Saturday: 8:00 AM - 8:00 PM</p>
+                      <p className="text-muted-foreground">Sunday: 10:00 AM - 6:00 PM</p>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-primary text-primary-foreground">
+              <CardContent className="p-8 text-center">
+                <h3 className="text-xl font-bold mb-4">Emergency Moving Services</h3>
+                <p className="mb-6">
+                  Need to move on short notice? We offer emergency moving services 
+                  for urgent relocations. Call us now for immediate assistance.
+                </p>
+                <Button 
+                  variant="outline" 
+                  className="bg-primary-foreground text-primary hover:bg-secondary"
+                  onClick={() => window.location.href = 'tel:111-222-3333'}
+                >
+                  <Phone className="mr-2 h-4 w-4" />
+                  Emergency Hotline
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ContactSection;
