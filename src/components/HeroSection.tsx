@@ -22,57 +22,67 @@ const HeroSection = () => {
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/70"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/95 to-primary/85"></div>
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-primary-foreground">
-        <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-          The Most Reliable & Affordable
-          <br />
-          <span className="text-accent">Moving Company</span>
+        <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight">
+          PROMOVE
         </h1>
         
-        <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-          Are you looking for moving services? We provide professional, reliable, and affordable moving solutions for residential and commercial clients.
-        </p>
-        
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
           <Button 
             size="lg" 
-            className="bg-primary-foreground text-primary hover:bg-secondary text-lg px-8 py-6"
-            onClick={() => window.location.href = 'tel:111-222-3333'}
+            className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-12 py-6 font-semibold"
+            onClick={scrollToContact}
           >
-            <Phone className="mr-2 h-5 w-5" />
-            Call 111-222-3333
+            BOOK NOW
           </Button>
           
           <Button 
             size="lg" 
-            variant="default"
-            className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6"
-            onClick={scrollToContact}
+            variant="outline"
+            className="border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-12 py-6 font-semibold"
+            onClick={() => window.location.href = 'tel:111-222-3333'}
           >
-            Request A Quote
+            <Phone className="mr-3 h-5 w-5" />
+            CALL NOW
           </Button>
         </div>
         
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-          <div className="text-center">
-            <div className="text-3xl font-bold text-accent mb-2">✓</div>
-            <h3 className="text-lg font-semibold mb-2">Professional Movers</h3>
-            <p className="text-sm opacity-90">100% Screened & Trained</p>
+        <h2 className="text-2xl md:text-4xl font-bold mb-16">
+          A MOVING COMPANY <span className="text-accent">YOU CAN TRUST</span>
+        </h2>
+        
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div 
+            className="relative bg-primary/80 rounded-lg overflow-hidden h-48 flex items-center justify-center cursor-pointer hover:bg-primary/90 transition-colors duration-300"
+            onClick={() => scrollToContact()}
+          >
+            <div className="text-center">
+              <h3 className="text-2xl font-bold text-primary-foreground mb-2">RESIDENTIAL</h3>
+              <h3 className="text-2xl font-bold text-primary-foreground">MOVERS</h3>
+            </div>
           </div>
           
-          <div className="text-center">
-            <div className="text-3xl font-bold text-accent mb-2">📞</div>
-            <h3 className="text-lg font-semibold mb-2">Call Us Today</h3>
-            <p className="text-sm opacity-90">Questions? Call Us Today</p>
+          <div 
+            className="relative bg-primary/80 rounded-lg overflow-hidden h-48 flex items-center justify-center cursor-pointer hover:bg-primary/90 transition-colors duration-300"
+            onClick={() => scrollToContact()}
+          >
+            <div className="text-center">
+              <h3 className="text-2xl font-bold text-primary-foreground mb-2">COMMERCIAL</h3>
+              <h3 className="text-2xl font-bold text-primary-foreground">MOVERS</h3>
+            </div>
           </div>
           
-          <div className="text-center">
-            <div className="text-3xl font-bold text-accent mb-2">💯</div>
-            <h3 className="text-lg font-semibold mb-2">Affordable Rates</h3>
-            <p className="text-sm opacity-90">Quality Service Guaranteed</p>
+          <div 
+            className="relative bg-primary/80 rounded-lg overflow-hidden h-48 flex items-center justify-center cursor-pointer hover:bg-primary/90 transition-colors duration-300"
+            onClick={() => scrollToContact()}
+          >
+            <div className="text-center">
+              <h3 className="text-2xl font-bold text-primary-foreground mb-2">PACKING</h3>
+              <h3 className="text-2xl font-bold text-primary-foreground">SERVICES</h3>
+            </div>
           </div>
         </div>
       </div>
