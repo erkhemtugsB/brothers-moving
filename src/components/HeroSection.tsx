@@ -14,78 +14,71 @@ const HeroSection = () => {
   return (
     <section 
       id="home" 
-      className="relative min-h-screen flex items-center justify-center"
-      style={{
-        backgroundImage: `url(${heroImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
-      }}
+      className="relative min-h-screen flex items-center bg-background"
     >
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-primary/95 to-primary/85"></div>
-      
-      {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center text-primary-foreground">
-        {/* Logo */}
-        <div className="mb-8">
-          <img src={logo} alt="My Brothers Moving Co." className="mx-auto h-48 w-auto" />
-        </div>
-        
-        {/* Main Heading */}
-        <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-          MY BROTHERS MOVING CO.
-        </h1>
-        
-        {/* Tagline */}
-        <div className="bg-accent text-accent-foreground py-4 px-8 mb-8 inline-block">
-          <h2 className="text-2xl md:text-3xl font-bold">
-            THE RELOCATING EXPERT IS HERE
-          </h2>
-        </div>
-        
-        {/* Phone Number */}
-        <div className="mb-8">
-          <div className="flex items-center justify-center mb-4">
-            <Phone className="mr-3 h-6 w-6" />
-            <span className="text-lg font-semibold">CALL US NOW:</span>
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-screen py-20">
+          {/* Left Content */}
+          <div className="text-left">
+            {/* Logo */}
+            <div className="mb-8">
+              <img src={logo} alt="My Brothers Moving Co." className="h-32 w-auto" />
+            </div>
+            
+            {/* Main Heading */}
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-foreground">
+              Local Moves,<br />
+              <span className="text-primary">Made Easy</span>
+            </h1>
+            
+            {/* Tagline */}
+            <p className="text-xl md:text-2xl mb-8 text-muted-foreground">
+              Professional moving services you can trust
+            </p>
+            
+            {/* Action Buttons */}
+            <div className="flex flex-col sm:flex-row gap-6 mb-8">
+              <Button 
+                size="lg" 
+                className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-12 py-6 font-semibold"
+                onClick={scrollToContact}
+              >
+                INSTANT QUOTE
+              </Button>
+              
+              <Button 
+                size="lg" 
+                variant="outline"
+                className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-12 py-6 font-semibold"
+                onClick={() => window.location.href = 'tel:773-685-2055'}
+              >
+                <Phone className="mr-3 h-5 w-5" />
+                773-685-2055
+              </Button>
+            </div>
+            
+            {/* Contact Info */}
+            <div className="space-y-2 text-muted-foreground">
+              <p className="flex items-center gap-2">
+                <span>📧 info@brosmovingco.com</span>
+              </p>
+              <p className="flex items-center gap-2">
+                <span>📍 4232 Commercial Way Glenview, IL</span>
+              </p>
+            </div>
           </div>
-          <a 
-            href="tel:773-685-2055" 
-            className="text-4xl md:text-5xl font-bold hover:text-accent transition-colors"
-          >
-            773-685-2055
-          </a>
-        </div>
-        
-        {/* Action Buttons */}
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
-          <Button 
-            size="lg" 
-            className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-12 py-6 font-semibold"
-            onClick={scrollToContact}
-          >
-            GET FREE QUOTE
-          </Button>
-          
-          <Button 
-            size="lg" 
-            variant="outline"
-            className="border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-12 py-6 font-semibold"
-            onClick={() => window.location.href = 'tel:773-685-2055'}
-          >
-            <Phone className="mr-3 h-5 w-5" />
-            CALL NOW
-          </Button>
-        </div>
-        
-        {/* Contact Info */}
-        <div className="flex flex-col md:flex-row justify-center items-center gap-8 text-lg">
-          <div className="flex items-center">
-            <span className="font-semibold">📧 info@brosmovingco.com</span>
-          </div>
-          <div className="flex items-center">
-            <span className="font-semibold">📍 4232 Commercial Way Glenview, IL</span>
+
+          {/* Right Content - Image */}
+          <div className="relative">
+            <div 
+              className="aspect-[4/3] rounded-lg overflow-hidden bg-cover bg-center bg-no-repeat"
+              style={{
+                backgroundImage: `url(${heroImage})`,
+              }}
+            >
+              {/* Overlay for better contrast if needed */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+            </div>
           </div>
         </div>
       </div>
