@@ -23,8 +23,8 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-primary shadow-lg">
       {/* Top contact bar */}
-      <div className="bg-primary/90 text-primary-foreground py-2 px-4">
-        <div className="container mx-auto flex justify-between items-center text-sm">
+      <div className="bg-primary/90 text-primary-foreground py-2">
+        <div className="max-w-6xl mx-auto flex justify-between items-center text-sm px-4">
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <Phone className="h-4 w-4" />
@@ -46,8 +46,8 @@ const Header = () => {
       </div>
 
       {/* Main navigation */}
-      <nav className="bg-primary text-primary-foreground py-4 px-4">
-        <div className="container mx-auto flex justify-between items-center">
+      <nav className="bg-primary text-primary-foreground py-4">
+        <div className="max-w-6xl mx-auto flex justify-between items-center px-4">
           <div className="text-2xl font-bold">
             ProMove
           </div>
