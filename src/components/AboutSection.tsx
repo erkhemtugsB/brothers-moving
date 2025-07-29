@@ -98,7 +98,7 @@ const AboutSection = () => {
               </p>
               <div className="space-y-2">
                 <p className="text-lg font-semibold">Call Now:</p>
-                <p className="text-2xl font-bold text-accent">111-222-3333</p>
+                <p className="text-2xl font-bold text-accent">773-685-2055</p>
               </div>
             </div>
           </div>

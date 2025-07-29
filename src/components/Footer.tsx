@@ -90,7 +90,7 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-accent flex-shrink-0" />
                 <div>
-                  <p className="font-medium">111-222-3333</p>
+                  <p className="font-medium">773-685-2055</p>
                   <p className="text-sm text-primary-foreground/80">24/7 Support</p>
                 </div>
               </div>
@@ -98,7 +98,7 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-accent flex-shrink-0" />
                 <div>
-                  <p className="font-medium">info@movingcompany.com</p>
+                  <p className="font-medium">info@brosmovingco.com</p>
                   <p className="text-sm text-primary-foreground/80">Quick Response</p>
                 </div>
               </div>

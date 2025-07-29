@@ -89,7 +89,7 @@ const ContactSection = () => {
                     <Phone className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold text-foreground">Phone</h4>
-                      <p className="text-muted-foreground">111-222-3333</p>
+                      <p className="text-muted-foreground">773-685-2055</p>
                       <p className="text-sm text-muted-foreground">Call for immediate assistance</p>
                     </div>
                   </div>
@@ -98,7 +98,7 @@ const ContactSection = () => {
                     <Mail className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold text-foreground">Email</h4>
-                      <p className="text-muted-foreground">info@movingcompany.com</p>
+                      <p className="text-muted-foreground">info@brosmovingco.com</p>
                       <p className="text-sm text-muted-foreground">Send us your questions anytime</p>
                     </div>
                   </div>
@@ -134,7 +134,7 @@ const ContactSection = () => {
                 <Button 
                   variant="outline" 
                   className="bg-primary-foreground text-primary hover:bg-secondary"
-                  onClick={() => window.location.href = 'tel:111-222-3333'}
+                  onClick={() => window.location.href = 'tel:773-685-2055'}
                 >
                   <Phone className="mr-2 h-4 w-4" />
                   Emergency Hotline

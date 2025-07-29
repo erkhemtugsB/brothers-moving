@@ -28,11 +28,11 @@ const Header = () => {
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <Phone className="h-4 w-4" />
-              <span>111-222-3333</span>
+              <span>773-685-2055</span>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
-              <span>info@movingcompany.com</span>
+              <span>info@brosmovingco.com</span>
             </div>
           </div>
           <Button 

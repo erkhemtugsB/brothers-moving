@@ -51,10 +51,10 @@ const HeroSection = () => {
             <span className="text-lg font-semibold">CALL US NOW:</span>
           </div>
           <a 
-            href="tel:111-222-3333" 
+            href="tel:773-685-2055" 
             className="text-4xl md:text-5xl font-bold hover:text-accent transition-colors"
           >
-            111-222-3333
+            773-685-2055
           </a>
         </div>
         
@@ -72,7 +72,7 @@ const HeroSection = () => {
             size="lg" 
             variant="outline"
             className="border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-12 py-6 font-semibold"
-            onClick={() => window.location.href = 'tel:111-222-3333'}
+            onClick={() => window.location.href = 'tel:773-685-2055'}
           >
             <Phone className="mr-3 h-5 w-5" />
             CALL NOW
@@ -82,10 +82,10 @@ const HeroSection = () => {
         {/* Contact Info */}
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 text-lg">
           <div className="flex items-center">
-            <span className="font-semibold">📧 info@movingcompany.com</span>
+            <span className="font-semibold">📧 info@brosmovingco.com</span>
           </div>
           <div className="flex items-center">
-            <span className="font-semibold">📍 Your Location Here</span>
+            <span className="font-semibold">📍 4232 Commercial Way Glenview, IL</span>
           </div>
         </div>
       </div>
