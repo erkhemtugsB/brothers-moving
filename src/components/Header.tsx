@@ -22,28 +22,7 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-primary shadow-lg">
-      {/* Top contact bar */}
-      <div className="bg-primary/90 text-primary-foreground py-2">
-        <div className="max-w-6xl mx-auto flex justify-between items-center text-sm px-4">
-          <div className="flex items-center gap-6">
-            <div className="flex items-center gap-2">
-              <Phone className="h-4 w-4" />
-              <span>773-685-2055</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Mail className="h-4 w-4" />
-              <span>info@brosmovingco.com</span>
-            </div>
-          </div>
-          <Button 
-            variant="default" 
-            size="sm" 
-            className="bg-accent text-accent-foreground hover:bg-accent/90"
-          >
-            Get Free Quote
-          </Button>
-        </div>
-      </div>
+ 
 
       {/* Main navigation */}
       <nav className="bg-primary text-primary-foreground py-4">
