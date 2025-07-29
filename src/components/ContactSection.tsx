@@ -18,68 +18,8 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-2xl text-primary">Request a Quote</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <form className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-sm font-medium mb-2">First Name</label>
-                    <Input placeholder="Enter your first name" />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium mb-2">Last Name</label>
-                    <Input placeholder="Enter your last name" />
-                  </div>
-                </div>
-                
-                <div>
-                  <label className="block text-sm font-medium mb-2">Email</label>
-                  <Input type="email" placeholder="Enter your email address" />
-                </div>
-                
-                <div>
-                  <label className="block text-sm font-medium mb-2">Phone Number</label>
-                  <Input type="tel" placeholder="Enter your phone number" />
-                </div>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-sm font-medium mb-2">Moving From</label>
-                    <Input placeholder="Current address" />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium mb-2">Moving To</label>
-                    <Input placeholder="Destination address" />
-                  </div>
-                </div>
-                
-                <div>
-                  <label className="block text-sm font-medium mb-2">Moving Date</label>
-                  <Input type="date" />
-                </div>
-                
-                <div>
-                  <label className="block text-sm font-medium mb-2">Additional Details</label>
-                  <Textarea 
-                    placeholder="Tell us about your moving needs (number of rooms, special items, etc.)"
-                    rows={4}
-                  />
-                </div>
-                
-                <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90 text-lg py-6">
-                  Get Free Quote
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
-
-          {/* Contact Information */}
-          <div className="space-y-8">
+        <div className="max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card>
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-primary mb-6">Contact Information</h3>
