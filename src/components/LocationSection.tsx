@@ -110,12 +110,17 @@ const LocationSection = () => {
               <CardTitle className="text-primary">Coverage Area Map</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="bg-muted rounded-lg h-64 flex items-center justify-center mb-6">
-                <div className="text-center text-muted-foreground">
-                  <MapPin className="h-16 w-16 mx-auto mb-4 text-accent" />
-                  <p className="text-lg font-medium">Interactive Service Area Map</p>
-                  <p className="text-sm">Covering 50+ mile radius</p>
-                </div>
+              <div className="rounded-lg overflow-hidden h-64 mb-6">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.6775906518837!2d-87.86245912436432!3d42.06979157122136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb80f33ef305d%3A0x90fa64579dadcd14!2s4232%20Commercial%20Way%2C%20Glenview%2C%20IL%2060025!5e1!3m2!1sen!2sus!4v1753756751761!5m2!1sen!2sus"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Coverage Area Map"
+                />
               </div>
               <p className="text-muted-foreground">
                 Our service area includes the entire metropolitan region and extends 
