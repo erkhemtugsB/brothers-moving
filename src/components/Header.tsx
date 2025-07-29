@@ -49,7 +49,7 @@ const Header = () => {
       <nav className="bg-primary text-primary-foreground py-4">
         <div className="max-w-6xl mx-auto flex justify-between items-center px-4">
           <div className="text-2xl font-bold">
-            ProMove
+            My Brothers Moving
           </div>
 
           {/* Desktop navigation */}
