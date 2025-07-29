@@ -21,14 +21,7 @@ const Footer = () => {
               Your trusted moving partner for over 15 years. Professional, reliable, 
               and affordable moving services for residential and commercial clients.
             </p>
-            <div className="flex items-center gap-2 text-accent">
-              <Star className="h-5 w-5 fill-current" />
-              <Star className="h-5 w-5 fill-current" />
-              <Star className="h-5 w-5 fill-current" />
-              <Star className="h-5 w-5 fill-current" />
-              <Star className="h-5 w-5 fill-current" />
-              <span className="ml-2 text-primary-foreground/80">4.9/5 Rating</span>
-            </div>
+
           </div>
 
           {/* Quick Links */}

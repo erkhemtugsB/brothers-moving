@@ -69,16 +69,12 @@ const HeroSection = () => {
           </div>
 
           {/* Right Content - Image */}
-          <div className="relative">
-            <div 
-              className="aspect-[4/3] rounded-lg overflow-hidden bg-cover bg-center bg-no-repeat"
-              style={{
-                backgroundImage: `url(${heroImage})`,
-              }}
-            >
-              {/* Overlay for better contrast if needed */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-            </div>
+          <div className="relative flex items-center justify-center aspect-[4/3] rounded-lg overflow-hidden bg-background">
+            <img
+              src={heroImage}
+              alt="Moving Company Hero"
+              className="h-full w-full object-contain"
+            />
           </div>
         </div>
       </div>
