@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">ProMove</h3>
+            <h3 className="text-2xl font-bold mb-4">Brothers Moving</h3>
             <p className="text-primary-foreground/80 mb-4">
               Your trusted moving partner for over 15 years. Professional, reliable, 
               and affordable moving services for residential and commercial clients.
@@ -119,7 +119,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/80">
-              © {currentYear} ProMove. All rights reserved.
+              © {currentYear} Brothers Moving. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm text-primary-foreground/80">
               <span>Licensed & Bonded</span>

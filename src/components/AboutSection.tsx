@@ -30,10 +30,10 @@ const AboutSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
-            About ProMove
+            About Brothers Moving
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            With over 15 years of experience in the moving industry, ProMove has built a reputation 
+            With over 15 years of experience in the moving industry, Brothers Moving has built a reputation 
             as the most trusted moving company in the area. We specialize in residential and commercial 
             moves, providing comprehensive services that make your relocation stress-free and seamless.
           </p>
@@ -61,7 +61,7 @@ const AboutSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6">
-                Why Choose ProMove?
+                Why Choose Brothers Moving?
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
@@ -94,7 +94,7 @@ const AboutSection = () => {
             <div className="bg-primary text-primary-foreground rounded-lg p-8 text-center">
               <h4 className="text-2xl font-bold mb-4">Ready to Move?</h4>
               <p className="mb-6">
-                Get your free, no-obligation quote today and experience the ProMove difference.
+                Get your free, no-obligation quote today and experience the Brothers Moving difference.
               </p>
               <div className="space-y-2">
                 <p className="text-lg font-semibold">Call Now:</p>

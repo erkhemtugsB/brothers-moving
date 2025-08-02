@@ -57,7 +57,7 @@ const LocationSection = () => {
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             We proudly serve the entire metropolitan area and surrounding regions. 
-            No matter where you're moving from or to, ProMove has the experience 
+            No matter where you're moving from or to, Brothers Moving has the experience 
             and resources to handle your relocation professionally.
           </p>
         </div>
