@@ -21,9 +21,9 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="text-left">
             {/* Logo */}
-            <div className="mb-8">
+            {/* <div className="mb-8">
               <img src={logo} alt="My Brothers Moving Co." className="h-32 w-auto" />
-            </div>
+            </div> */}
             
             {/* Main Heading */}
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-foreground">
