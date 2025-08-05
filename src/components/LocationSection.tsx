@@ -5,22 +5,18 @@ const LocationSection = () => {
   const serviceAreas = [
     {
       city: "Downtown",
-      distance: "0-5 miles",
       description: "Full-service moving for urban apartments and condos"
     },
     {
       city: "Suburbs",
-      distance: "5-15 miles", 
       description: "Residential moving for single-family homes"
     },
     {
       city: "Metro Area",
-      distance: "15-50 miles",
       description: "Extended metropolitan area coverage"
     },
     {
       city: "Long Distance",
-      distance: "50+ miles",
       description: "Interstate and long-distance relocations"
     }
   ];
@@ -107,7 +103,7 @@ const LocationSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <Card>
             <CardHeader>
-              <CardTitle className="text-primary">Coverage Area Map</CardTitle>
+              <CardTitle className="text-primary">We Provide Nationwide Coverage</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="rounded-lg overflow-hidden h-64 mb-6">

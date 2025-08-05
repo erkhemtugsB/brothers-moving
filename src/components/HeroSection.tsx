@@ -58,14 +58,7 @@ const HeroSection = () => {
             </div>
             
             {/* Contact Info */}
-            <div className="space-y-2 text-muted-foreground">
-              <p className="flex items-center gap-2">
-                <span>📧 info@brosmovingco.com</span>
-              </p>
-              <p className="flex items-center gap-2">
-                <span>📍 4232 Commercial Way Glenview, IL</span>
-              </p>
-            </div>
+          
           </div>
 
           {/* Right Content - Image */}

@@ -136,11 +136,7 @@ const Footer = () => {
             <p className="text-primary-foreground/80">
               © {currentYear} Brothers Moving. All rights reserved.
             </p>
-            <div className="flex gap-6 text-sm text-primary-foreground/80">
-              <span>Licensed & Bonded</span>
-              <span>Fully Insured</span>
-              <span>BBB Accredited</span>
-            </div>
+
           </div>
         </div>
       </div>
