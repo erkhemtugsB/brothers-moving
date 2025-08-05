@@ -39,7 +39,7 @@ const LocationSection = () => {
     },
     {
       icon: <MapPin className="h-8 w-8 text-accent" />,
-      number: "50+",
+      number: "Unlimited",
       label: "Mile Radius"
     }
   ];
@@ -48,7 +48,7 @@ const LocationSection = () => {
     <section id="location" className="py-20 bg-secondary">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Our Service Locations
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
@@ -65,7 +65,7 @@ const LocationSection = () => {
               <div className="flex justify-center mb-4">
                 {stat.icon}
               </div>
-              <div className="text-3xl font-bold text-primary mb-2">
+              <div className="text-3xl font-bold text-white mb-2">
                 {stat.number}
               </div>
               <div className="text-muted-foreground">
@@ -86,11 +86,7 @@ const LocationSection = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="mb-3">
-                  <span className="inline-block bg-accent/10 text-accent px-3 py-1 rounded-full text-sm font-medium">
-                    {area.distance}
-                  </span>
-                </div>
+                
                 <p className="text-muted-foreground">
                   {area.description}
                 </p>
