@@ -36,7 +36,7 @@ const HeroSection = () => {
             {/* Main Heading */}
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-foreground">
               Local Moves,<br />
-              <span className="text-primary">Made Easy</span>
+              <span className="text-white">Made Easy</span>
             </h1>
             
             {/* Tagline */}
@@ -56,8 +56,7 @@ const HeroSection = () => {
               
               <Button 
                 size="lg" 
-                variant="outline"
-                className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-12 py-6 font-semibold"
+                className="bg-green-600 text-white hover:bg-green-700 text-lg px-12 py-6 font-semibold"
                 onClick={() => window.location.href = 'tel:773-685-2055'}
               >
                 <Phone className="mr-3 h-5 w-5" />
@@ -70,11 +69,11 @@ const HeroSection = () => {
           </div>
 
           {/* Right Content - Image */}
-          <div className="relative flex items-center justify-center aspect-[4/3] rounded-lg overflow-hidden bg-background">
+          <div className="relative flex items-center justify-center overflow-hidden ">
             <img
               src={heroImage}
               alt="Moving Company Hero"
-              className="h-full w-full object-contain"
+              className="h-full w-full object-scale-down max-h-full"
             />
           </div>
         </div>
