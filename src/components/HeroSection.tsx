@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
 import heroImage from "@/assets/hero-moving.jpg";
+import heroBackground from "@/assets/hero-background.jpg";
 import logo from "@/assets/logo.png";
 
 const HeroSection = () => {
@@ -15,8 +16,15 @@ const HeroSection = () => {
     <section 
       id="home" 
       className="relative min-h-screen flex items-center bg-background"
+      style={{
+        backgroundImage: `url(${heroBackground})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
     >
-      <div className="container mx-auto px-4">
+      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-screen py-20">
           {/* Left Content */}
           <div className="text-left">
