@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Facebook, Instagram } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -18,10 +18,17 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-4">Brothers Moving</h3>
             <p className="text-primary-foreground/80 mb-4">
-              Your trusted moving partner for over 15 years. Professional, reliable, 
-              and affordable moving services for residential and commercial clients.
+              Your trusted moving partner for over 5 years. Professional, reliable, 
+              and affordable moving services for short and long distance moves anywhere in the US.
             </p>
-
+            <div className="flex items-center space-x-4">
+              <a href="#" className="hover:text-accent transition-colors duration-200">
+                <Facebook className="h-5 w-5" />
+              </a>
+              <a href="#" className="hover:text-accent transition-colors duration-200">
+                <Instagram className="h-5 w-5" />
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -67,12 +74,12 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Our Services</h4>
             <ul className="space-y-2 text-primary-foreground/80">
+              <li>Short Distance Moving</li>
+              <li>Long Distance Moving</li>
+              <li>Any US State or Location</li>
               <li>Residential Moving</li>
               <li>Commercial Moving</li>
-              <li>Long Distance Moving</li>
               <li>Packing Services</li>
-              <li>Storage Solutions</li>
-              <li>Emergency Moving</li>
             </ul>
           </div>
 
@@ -83,8 +90,16 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-accent flex-shrink-0" />
                 <div>
-                  <p className="font-medium">773-685-2055</p>
-                  <p className="text-sm text-primary-foreground/80">24/7 Support</p>
+                  <p className="font-medium">773-302-4921 Joji</p>
+                  <p className="text-sm text-primary-foreground/80">Primary Contact</p>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-3">
+                <Phone className="h-5 w-5 text-accent flex-shrink-0" />
+                <div>
+                  <p className="font-medium">773-685-2955 Mike</p>
+                  <p className="text-sm text-primary-foreground/80">Secondary Contact</p>
                 </div>
               </div>
               
@@ -99,8 +114,8 @@ const Footer = () => {
               <div className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-accent flex-shrink-0 mt-1" />
                 <div>
-                  <p className="font-medium">Greater Metro Area</p>
-                  <p className="text-sm text-primary-foreground/80">50+ Mile Radius</p>
+                  <p className="font-medium">Any US State or Location</p>
+                  <p className="text-sm text-primary-foreground/80">Short & Long Distance</p>
                 </div>
               </div>
               

@@ -33,9 +33,9 @@ const AboutSection = () => {
             About Brothers Moving
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            With over 15 years of experience in the moving industry, Brothers Moving has built a reputation 
-            as the most trusted moving company in the area. We specialize in residential and commercial 
-            moves, providing comprehensive services that make your relocation stress-free and seamless.
+            With over 5 years of experience in the moving industry, Brothers Moving has built a reputation 
+            as the most trusted moving company in the area. We specialize in short and long distance moves 
+            anywhere in the US, providing comprehensive services that make your relocation stress-free and seamless.
           </p>
         </div>
 
@@ -98,7 +98,8 @@ const AboutSection = () => {
               </p>
               <div className="space-y-2">
                 <p className="text-lg font-semibold">Call Now:</p>
-                <p className="text-2xl font-bold text-accent">773-685-2055</p>
+                <p className="text-xl font-bold text-accent">773-302-4921 Joji</p>
+                <p className="text-xl font-bold text-accent">773-685-2955 Mike</p>
               </div>
             </div>
           </div>

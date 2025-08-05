@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Phone, Mail } from "lucide-react";
+import { Menu, X, Phone, Mail, Facebook, Instagram } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,7 +32,7 @@ const Header = () => {
           </div>
 
           {/* Desktop navigation */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <button
                 key={item.name}
@@ -42,6 +42,14 @@ const Header = () => {
                 {item.name}
               </button>
             ))}
+            <div className="flex items-center space-x-4 ml-4">
+              <a href="#" className="hover:text-accent transition-colors duration-200">
+                <Facebook className="h-5 w-5" />
+              </a>
+              <a href="#" className="hover:text-accent transition-colors duration-200">
+                <Instagram className="h-5 w-5" />
+              </a>
+            </div>
           </div>
 
           {/* Mobile menu button */}
@@ -66,6 +74,14 @@ const Header = () => {
                   {item.name}
                 </button>
               ))}
+              <div className="flex items-center space-x-4 mt-4">
+                <a href="#" className="hover:text-accent transition-colors duration-200">
+                  <Facebook className="h-5 w-5" />
+                </a>
+                <a href="#" className="hover:text-accent transition-colors duration-200">
+                  <Instagram className="h-5 w-5" />
+                </a>
+              </div>
             </div>
           </div>
         )}

@@ -24,12 +24,13 @@ const ContactSection = () => {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-primary mb-6">Contact Information</h3>
                 
-                <div className="space-y-6">
+                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
                     <Phone className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold text-foreground">Phone</h4>
-                      <p className="text-muted-foreground">773-685-2055</p>
+                      <p className="text-muted-foreground">773-302-4921 Joji</p>
+                      <p className="text-muted-foreground">773-685-2955 Mike</p>
                       <p className="text-sm text-muted-foreground">Call for immediate assistance</p>
                     </div>
                   </div>
@@ -47,8 +48,8 @@ const ContactSection = () => {
                     <MapPin className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold text-foreground">Service Area</h4>
-                      <p className="text-muted-foreground">Greater Metropolitan Area</p>
-                      <p className="text-sm text-muted-foreground">Local and long-distance moves</p>
+                      <p className="text-muted-foreground">Any US State or Location</p>
+                      <p className="text-sm text-muted-foreground">Short & long distance moves</p>
                     </div>
                   </div>
                   
@@ -66,19 +67,18 @@ const ContactSection = () => {
 
             <Card className="bg-primary text-primary-foreground">
               <CardContent className="p-8 text-center">
-                <h3 className="text-xl font-bold mb-4">Emergency Moving Services</h3>
+                <h3 className="text-xl font-bold mb-4">Our Moving Services</h3>
                 <p className="mb-6">
-                  Need to move on short notice? We offer emergency moving services 
-                  for urgent relocations. Call us now for immediate assistance.
+                  We provide comprehensive moving services for any distance - from local moves 
+                  to long distance relocations anywhere in the United States. Professional, 
+                  reliable, and affordable.
                 </p>
-                <Button 
-                  variant="outline" 
-                  className="bg-primary-foreground text-primary hover:bg-secondary"
-                  onClick={() => window.location.href = 'tel:773-685-2055'}
-                >
-                  <Phone className="mr-2 h-4 w-4" />
-                  Emergency Hotline
-                </Button>
+                <div className="space-y-2 text-primary-foreground">
+                  <p>• Short Distance Moving</p>
+                  <p>• Long Distance Moving</p>
+                  <p>• Any US State or Location</p>
+                  <p>• Residential & Commercial</p>
+                </div>
               </CardContent>
             </Card>
           </div>
