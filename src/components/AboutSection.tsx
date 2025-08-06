@@ -41,7 +41,7 @@ const AboutSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {features.map((feature, index) => (
-            <Card key={index} className="text-center p-6 hover:shadow-lg transition-shadow duration-300">
+            <Card key={index} className="text-center p-6 bg-white hover:shadow-lg transition-shadow duration-300">
               <CardContent className="pt-6">
                 <div className="flex justify-center mb-4">
                   {feature.icon}
@@ -49,7 +49,7 @@ const AboutSection = () => {
                 <h3 className="text-xl font-semibold mb-3 text-primary">
                   {feature.title}
                 </h3>
-                <p className="text-muted-foreground">
+                <p className="text-black">
                   {feature.description}
                 </p>
               </CardContent>
@@ -91,9 +91,9 @@ const AboutSection = () => {
               </div>
             </div>
             
-            <div className="bg-primary text-primary-foreground rounded-lg p-8 text-center">
-              <h4 className="text-2xl font-bold mb-4">Ready to Move?</h4>
-              <p className="mb-6">
+            <div className="bg-white text-black rounded-lg p-8 text-center">
+              <h4 className="text-2xl font-bold mb-4 text-black">Ready to Move?</h4>
+              <p className="mb-6 text-black">
                 Get your free, no-obligation quote today and experience the Brothers Moving difference.
               </p>
               <div className="space-y-2">

@@ -78,16 +78,15 @@ const LocationSection = () => {
         {/* Service Areas */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           {serviceAreas.map((area, index) => (
-            <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
+            <Card key={index} className="bg-white hover:shadow-lg transition-shadow duration-300">
               <CardHeader>
-                <CardTitle className="flex items-center gap-3 text-primary">
+                <CardTitle className="flex items-center gap-3 text-[#1a2947]">
                   <MapPin className="h-6 w-6 text-accent" />
                   {area.city}
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                
-                <p className="text-muted-foreground">
+                <p className="text-[#24324d]">
                   {area.description}
                 </p>
               </CardContent>

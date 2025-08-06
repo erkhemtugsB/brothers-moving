@@ -46,17 +46,10 @@ const HeroSection = () => {
             
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-6 mb-8">
-              <Button 
-                size="lg" 
-                className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-12 py-6 font-semibold"
-                onClick={scrollToContact}
-              >
-                INSTANT QUOTE
-              </Button>
               
               <Button 
                 size="lg" 
-                className="bg-green-600 text-white hover:bg-green-700 text-lg px-12 py-6 font-semibold"
+                className="bg-accent text-white hover:bg-green-700 text-lg px-12 py-6 font-semibold"
                 onClick={() => window.location.href = 'tel:773-685-2055'}
               >
                 <Phone className="mr-3 h-5 w-5" />

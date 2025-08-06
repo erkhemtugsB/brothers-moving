@@ -20,45 +20,41 @@ const ContactSection = () => {
 
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <Card>
+            <Card className="bg-white text-black">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold text-white mb-6">Contact Information</h3>
-                
-                 <div className="space-y-6">
+                <h3 className="text-2xl font-bold text-black mb-6">Contact Information</h3>
+                <div className="space-y-6">
                   <div className="flex items-start gap-4">
                     <Phone className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold text-foreground">Phone</h4>
-                      <p className="text-muted-foreground">773-302-4921 Joji</p>
-                      <p className="text-muted-foreground">773-685-2955 Mike</p>
-                      <p className="text-sm text-muted-foreground">Call for immediate assistance</p>
+                      <h4 className="font-semibold text-black">Phone</h4>
+                      <p className="text-black">773-302-4921 Joji</p>
+                      <p className="text-black">773-685-2955 Mike</p>
+                      <p className="text-sm text-black">Call for immediate assistance</p>
                     </div>
                   </div>
-                  
                   <div className="flex items-start gap-4">
                     <Mail className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold text-foreground">Email</h4>
-                      <p className="text-muted-foreground">info@brosmovingco.com</p>
-                      <p className="text-sm text-muted-foreground">Send us your questions anytime</p>
+                      <h4 className="font-semibold text-black">Email</h4>
+                      <p className="text-black">info@brosmovingco.com</p>
+                      <p className="text-sm text-black">Send us your questions anytime</p>
                     </div>
                   </div>
-                  
                   <div className="flex items-start gap-4">
                     <MapPin className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold text-foreground">Service Area</h4>
-                      <p className="text-muted-foreground">Any US State or Location</p>
-                      <p className="text-sm text-muted-foreground">Short & long distance moves</p>
+                      <h4 className="font-semibold text-black">Service Area</h4>
+                      <p className="text-black">Any US State or Location</p>
+                      <p className="text-sm text-black">Short & long distance moves</p>
                     </div>
                   </div>
-                  
                   <div className="flex items-start gap-4">
                     <Clock className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold text-foreground">Business Hours</h4>
-                      <p className="text-muted-foreground">Monday - Saturday: 8:00 AM - 8:00 PM</p>
-                      <p className="text-muted-foreground">Sunday: 10:00 AM - 6:00 PM</p>
+                      <h4 className="font-semibold text-black">Business Hours</h4>
+                      <p className="text-black">Monday - Saturday: 8:00 AM - 8:00 PM</p>
+                      <p className="text-black">Sunday: 10:00 AM - 6:00 PM</p>
                     </div>
                   </div>
                 </div>
