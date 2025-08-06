@@ -6,13 +6,13 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-20 bg-background">
+    <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#1a2947] mb-6">
             Get Your Free Quote
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-[#24324d] max-w-2xl mx-auto">
             Ready to make your move? Contact us today for a free, no-obligation quote. 
             Our team is standing by to help make your relocation smooth and stress-free.
           </p>

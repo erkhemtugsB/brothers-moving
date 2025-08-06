@@ -57,43 +57,43 @@ const AboutSection = () => {
           ))}
         </div>
 
-        <div className="bg-card rounded-lg p-8 md:p-12">
+        <div className="bg-white rounded-lg p-8 md:p-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6">
+              <h3 className="text-2xl md:text-3xl font-bold text-[#1a2947] mb-6">
                 Why Choose Brothers Moving?
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-muted-foreground">
-                    <strong className="text-foreground">Licensed & Bonded:</strong> Fully licensed and insured for your protection
+                  <p className="text-[#24324d]">
+                    <strong className="text-[#1a2947]">Licensed & Bonded:</strong> Fully licensed and insured for your protection
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-muted-foreground">
-                    <strong className="text-foreground">Competitive Pricing:</strong> Fair, transparent pricing with no hidden fees
+                  <p className="text-[#24324d]">
+                    <strong className="text-[#1a2947]">Competitive Pricing:</strong> Fair, transparent pricing with no hidden fees
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-muted-foreground">
-                    <strong className="text-foreground">Local Expertise:</strong> Deep knowledge of the local area and regulations
+                  <p className="text-[#24324d]">
+                    <strong className="text-[#1a2947]">Local Expertise:</strong> Deep knowledge of the local area and regulations
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-muted-foreground">
-                    <strong className="text-foreground">Customer Satisfaction:</strong> 5-star rated service with hundreds of happy customers
+                  <p className="text-[#24324d]">
+                    <strong className="text-[#1a2947]">Customer Satisfaction:</strong> 5-star rated service with hundreds of happy customers
                   </p>
                 </div>
               </div>
             </div>
             
-            <div className="bg-white text-black rounded-lg p-8 text-center">
-              <h4 className="text-2xl font-bold mb-4 text-black">Ready to Move?</h4>
-              <p className="mb-6 text-black">
+            <div className="bg-white text-[#1a2947] rounded-lg p-8 text-center">
+              <h4 className="text-2xl font-bold mb-4 text-[#1a2947]">Ready to Move?</h4>
+              <p className="mb-6 text-[#24324d]">
                 Get your free, no-obligation quote today and experience the Brothers Moving difference.
               </p>
               <div className="space-y-2">
