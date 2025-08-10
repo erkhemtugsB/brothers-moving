@@ -34,7 +34,7 @@ const LocationSection = () => {
     },
     {
       icon: <Clock className="h-8 w-8 text-accent" />,
-      number: "15+",
+      number: "5+",
       label: "Years Experience"
     },
     {
