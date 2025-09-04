@@ -35,7 +35,7 @@ const HeroSection = () => {
             
             {/* Main Heading */}
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-foreground">
-              Local Moves,<br />
+              Local and Long Distance Moves,<br />
               <span className="text-white">Made Easy</span>
             </h1>
             
@@ -49,11 +49,20 @@ const HeroSection = () => {
               
               <Button 
                 size="lg" 
-                className="bg-accent text-white hover:bg-green-700 text-lg px-12 py-6 font-semibold"
-                onClick={() => window.location.href = 'tel:773-685-2055'}
+                className="bg-green-700 text-white hover:bg-green-800 text-lg px-12 py-6 font-semibold"
+                onClick={() => window.location.href = 'tel:773-685-2955'}
               >
                 <Phone className="mr-3 h-5 w-5" />
-                773-685-2055
+                773-685-2955
+              </Button>
+
+              <Button 
+                size="lg" 
+                className="bg-green-700 text-white hover:bg-green-800 text-lg px-12 py-6 font-semibold"
+                onClick={() => window.location.href = 'tel:7773-302-4921'}
+              >
+                <Phone className="mr-3 h-5 w-5" />
+                773-302-4921
               </Button>
             </div>
             

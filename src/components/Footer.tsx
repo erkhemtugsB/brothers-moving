@@ -91,7 +91,7 @@ const Footer = () => {
               <Phone className="h-5 w-5 text-accent flex-shrink-0" />
               <div>
                 <p className="font-medium">773-685-2955 Mike</p>
-                <p className="text-sm text-primary-foreground/80">Secondary Contact</p>
+                <p className="text-sm text-primary-foreground/80">Primary Contact</p>
               </div>
             </div>
 
@@ -101,7 +101,7 @@ const Footer = () => {
                 <Phone className="h-5 w-5 text-accent flex-shrink-0" />
                 <div>
                   <p className="font-medium">773-302-4921 Joji</p>
-                  <p className="text-sm text-primary-foreground/80">Primary Contact</p>
+                  <p className="text-sm text-primary-foreground/80">Secondary Contact</p>
                 </div>
               </div>
 
