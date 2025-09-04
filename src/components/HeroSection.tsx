@@ -49,7 +49,7 @@ const HeroSection = () => {
               
               <Button 
                 size="lg" 
-                className="bg-green-700 text-white hover:bg-green-800 text-lg px-12 py-6 font-semibold"
+                className="bg-green-500 text-white hover:bg-green-800 text-lg px-12 py-6 font-semibold"
                 onClick={() => window.location.href = 'tel:773-685-2955'}
               >
                 <Phone className="mr-3 h-5 w-5" />
@@ -58,7 +58,7 @@ const HeroSection = () => {
 
               <Button 
                 size="lg" 
-                className="bg-green-700 text-white hover:bg-green-800 text-lg px-12 py-6 font-semibold"
+                className="bg-green-500 text-white hover:bg-green-800 text-lg px-12 py-6 font-semibold"
                 onClick={() => window.location.href = 'tel:7773-302-4921'}
               >
                 <Phone className="mr-3 h-5 w-5" />
